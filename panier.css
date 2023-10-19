@@ -26,3 +26,24 @@ ul {
     background-color: rgba(214, 214, 255, 0);
 }
 
+.accueil:hover {
+    text-transform: initial;
+}
+
+.accueil-acc {
+    display: none;
+}
+.accueil:hover .accueil-acc {
+    display: inline;
+}
+.accueil:hover .index {
+    display: none;
+}
+
+.food {margin-left: 20px; padding-left: 10;}
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+  }
