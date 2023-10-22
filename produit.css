@@ -21,3 +21,11 @@ ul {
   li a:hover {
     background-color: #ffa43b;
   }
+
+  .section{
+    background-color: #ffa43b;
+    text-align: center;
+  }
+  .hautpage{
+    text-align: right;
+  }
