@@ -1,4 +1,9 @@
-ul.nav {
+h1 {
+  text-align: center;
+  size: 200px;
+}
+
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +11,11 @@ ul.nav {
   background-color: #333;
 }
 
-ul.nav li {
+.nav li {
   float: left;
 }
 
-ul.nav li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,7 +23,7 @@ ul.nav li a {
   text-decoration: none;
 }
 
-ul.nav li a:hover {
+.nav li a:hover {
   background-color: #111;
 }
 
@@ -51,4 +56,55 @@ ul.nav li a:hover {
 
 .footer ul li a:hover {
   padding-left: 8px;
+}
+
+.label {
+  height: 84px;
+  width: 610px;
+}
+
+.input-contact {
+  width: 398px;
+  height: 40px;
+  position: absolute;
+  border: 0.50px black solid;
+}
+
+.accroche {
+  width: 610px;
+  height: 84px;
+  text-align: center;
+  color: #979797;
+  font-size: 20px;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+h3 {
+  color: black;
+  font-size: 36px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 44px;
+  word-wrap: break-word;
+}
+
+.sous-titre-h3 {
+  width: 400px;
+  color: black;
+  font-size: 14px;
+  font-family: Public Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.shop{
+  display: flex;
+  width: 194px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
