@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="panier.css">
     <link rel="icon" href="images/icone/poleFood.ico">
     <title>Panier</title>
-
 </head>
 
 <body>
     <ul class="nav">
-        <li><a class="index" href="index.html">Pole Food</a> </li>
-        <li><a href="achat.html">Achat</a></li>
-        <input type="text" placeholder="Rechercher ...">
-        <button type="submit"><i class="recherche"><a href="index.html"><img src="images/logoRecherche/recherche.png"
-                        width="10px"></a></i></button>
-        <li style="float:right"><a class="logoPanier " href="panier.html"><img src="/images/logoPanier/logo.png"
-                    width="25px"></a></li>
-        <li style="float:right"><a href="">Se connecter</a></li>
-        <li><a href="test.html">Test</a></li>
+        <div class="nav-left">
+            <li><a class="index" href="index.html">Pole Food</a></li>
+            <li><a href="achat.html">Achat</a></li>
+        </div>
+        <div class="nav-right">
+
+            <div class="cart">
+                <a href="panier.html"><img src="/images/logoPanier/logo.png" width="5%" alt="Panier"></a>
+            </div>
+            <div class="connect"><a href="">Se Connecter</a></div>
+        </div>
     </ul>
+
+
     <h1>Votre Commande</h1>
     <p>Vous avez oublié quelque chose ? Continuez vos <a href="achat.html"> Achats </a></p><br>
     <br>
     <div class="container">
-        <img class="food" src="images/nourriture/test.png" width="250px" height="250px">
+        <img class="food" src="images/nourriture/fruitPizza.jpg" width="10%" height="10%" alt="test">
         <p class="descFood">Nom de la nourriture <br>
             Quantité : X <br>
             X€</p>
@@ -34,11 +37,21 @@
     <hr>
 
     <div class="container2">
-        <img class="food" src="images/nourriture/test.png" width="250px" height="250px">
+        <img class="food" src="images/nourriture/classicKebab.jpeg" width="10%" height="10%" alt="test">
         <p class="descFood">Nom de la nourriture <br>
             Quantité : X <br>
             X€</p>
     </div>
+    <footer class="footer">
+        <h4>Shop</h4>
+        <ul>
+            <li><a href="produit.html#section_burger">Burgers</a></li>
+            <li><a href="produit.html#section_pizza">Pizzas</a></li>
+            <li><a href="produit.html#section_tacos">Tacos</a></li>
+            <li><a href="produit.html#section_kebab">Kebabs</a></li>
+            <li><a href="produit.html#section_hotdog">Hot-Dogs</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

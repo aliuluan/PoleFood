@@ -2,20 +2,48 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  justify-content:space-between;
   background-color: #333;
+  align-items: center; /* Pour aligner verticalement les éléments */
+}
+
+.nav-left {
+  display: flex;
+  justify-content:left;
+  align-items: center; /* Pour aligner verticalement les éléments de gauche */
+}
+
+.nav-right {
+  display: flex;
+  justify-content:right;
+  align-items: center; /* Pour aligner verticalement les éléments de droite */
 }
 
 ul.nav li {
-  float: left;
+  margin: 0; /* Supprimez les marges autour des éléments de la liste */
 }
 
 ul.nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px 15px;
   text-decoration: none;
+  padding: 8% 8%; /* Augmentez la marge interne pour les autres éléments */
+  height: fit-content;
+  width: fit-content;
+}
+
+.connect a {
+  color: white; /* Définissez la couleur du texte en blanc */
+  padding-inline: 5%;
+  text-decoration: none; /* Supprimez la décoration du texte */
+}
+
+.cart a {
+  margin: 0; /* Supprimez la marge autour de l'élément du panier */
+  padding-left: 90%;
+  height: 0;
 }
 
 ul.nav li a:hover {
@@ -24,7 +52,7 @@ ul.nav li a:hover {
 
 .footer {
   background-color: #FFD462;
-  padding: 70px;
+  padding: 3%;
 }
 
 .footer ul {
@@ -32,16 +60,16 @@ ul.nav li a:hover {
 }
 
 .footer h4 {
-  font-size: 18px;
+  font-size: 175%;
   text-transform: capitalize;
   font-weight: 500;
   position: relative;
 }
 
 .footer ul li a {
-  font-size: 16px;
+  font-size: 125%;
   text-transform: capitalize;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   font-weight: 300;
   text-decoration: none;
   color: #000000;
@@ -50,46 +78,30 @@ ul.nav li a:hover {
 }
 
 .footer ul li a:hover {
-  padding-left: 8px;
+  padding-left: 3%;
 }
 
-.logoPanier {
-    float: right;
-    background-color: rgba(214, 214, 255, 0);
-}
 
-.accueil:hover {
-    text-transform: initial;
-}
 
-.accueil-acc {
-    display: none;
-}
-.accueil:hover .accueil-acc {
-    display: inline;
-}
-.accueil:hover .index {
-    display: none;
-}
 
 .food {
     float: left;
-    margin-left: 20px; 
-    padding-right: 25px;
-    padding-bottom: 25px;
+    margin-left: 4%; 
+    padding-right: 4%;
+    padding-bottom: 4%;
 }
 
 .container {
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 4%;
   }
 
   .container2 {
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px;
-    margin-top: 100px;
+    margin-bottom: 4%;
+    margin-top: 3%;
   }
 
 p {
@@ -103,7 +115,5 @@ p {
 
 hr {
   margin: 0;
-  border: none;
-  border-top: 2px solid #000;
   width: 50%;
 }
