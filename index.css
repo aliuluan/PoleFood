@@ -30,10 +30,12 @@ h1 {
 .footer {
   background-color: #FFD462;
   padding: 70px;
+  float: left;
 }
 
-.footer ul {
+.footer .liste_produit {
   list-style: none;
+  padding-left:550px ;
 }
 
 .footer h4 {
@@ -73,13 +75,13 @@ h1 {
 .accroche {
   width: 610px;
   height: 84px;
-  text-align: center;
   color: #979797;
   font-size: 20px;
   font-family: Public Sans;
   font-weight: 400;
   line-height: 28px;
-  word-wrap: break-word;
+  text-align: center;
+  padding-left: 440px;
 }
 
 h3 {
@@ -88,7 +90,6 @@ h3 {
   font-family: Public Sans;
   font-weight: 600;
   line-height: 44px;
-  word-wrap: break-word;
 }
 
 .sous-titre-h3 {
@@ -97,7 +98,6 @@ h3 {
   font-size: 14px;
   font-family: Public Sans;
   font-weight: 400;
-  word-wrap: break-word;
 }
 
 .shop{
