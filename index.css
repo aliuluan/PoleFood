@@ -22,26 +22,39 @@
   background-color: #111;
 }
 
-h1 {
-  font-family: Public Sans;
+.contenu {
+  width: 1400px;
+  height: 1035px;
+  position: relative;
+}
+
+.header {
+  width: 755px;
+  left: 323px;
+  top: 126px;
+  position: absolute;
+  text-align: center;
+  color: black;
   font-size: 56px;
-  font-style: normal;
+  font-family: Public Sans;
   font-weight: 600;
   line-height: 62px;
-  letter-spacing: -2.4px;
-  text-align: center;
+  word-wrap: break-word;
 }
 
 .accroche {
   width: 610px;
   height: 84px;
+  left: 397px;
+  top: 207px;
+  position: absolute;
+  text-align: center;
   color: #979797;
   font-size: 20px;
   font-family: Public Sans;
   font-weight: 400;
   line-height: 28px;
-  text-align: center;
-  padding-left: 435px;
+  word-wrap: break-word;
 }
 
 .bouton-achat {
@@ -58,14 +71,17 @@ h1 {
 }
 
 .imgPoleFood {
-  padding-left: 245px;
+  width: 1114px;
+  height: 521px;
+  left: 145px;
+  top: 381px;
+  position: absolute;
 }
 
 .footer {
   width: 1400px;
   height: 419px;
   position: relative;
-  background: #EFF2F6;
 }
 
 .Titre-newsletter {
@@ -80,42 +96,30 @@ h1 {
   word-wrap: break-word;
 }
 
-.bloc-email {
-  width: 398px;
-  height: 40px;
+.email {
   left: 145px;
-  top: 154px;
+  top: 166px;
+  border: 0.50px black solid;
   position: absolute;
-}
-
-.box-email {
+  border-width: 2px;
   width: 398px;
   height: 40px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  border: 0.50px black solid;
-}
-
-.texte-email {
-  left: 16px;
-  top: 11.50px;
-  position: absolute;
-  color: #A9ABBD;
   font-size: 14px;
   font-family: Public Sans;
-  font-weight: 400;
   word-wrap: break-word;
+  font-weight: 700;
 }
 
-.inscrire {
-  left: 477px;
-  top: 166px;
+.bouton-inscription {
+  left: 462.5px;
+  top: 167px;
   position: absolute;
-  color: black;
-  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  border: 0.50px black solid;
+  font-size: 16px;
   font-family: Public Sans;
-  font-weight: 700;
+  font-weight: 600;
+  line-height: 22px;
   word-wrap: break-word;
 }
 
