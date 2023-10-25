@@ -25,43 +25,40 @@
 
 
 .contenu {
-  width: 1400px;
-  height: 1035px;
+  width: 100%;
+  height: 1100px;
   position: relative;
 }
 
 .header {
   left: 47%;
-  width: 755px;
-  top: 126px;
+  top: 5%;
   position: absolute;
   color: black;
-  font-size: 56px;
+  font-size: 300%;
   font-family: Public Sans;
   font-weight: 600;
-  line-height: 62px;
   word-wrap: break-word;
 }
 
 .accroche {
-  left: 32%;
-  width: 610px;
-  height: 84px;
-  top: 207px;
+  left: 30%;
+  width: 43%;
+  top: 11%;
   position: absolute;
   text-align: center;
   color: #000000;
   opacity: 0.9;
-  font-size: 20px;
+  font-size: 125%;
   font-family: Public Sans;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 125%;
   word-wrap: break-word;
 }
 
 .bouton-achat {
-  left: 51%;
-  top: 287px;
+  left: 49.5%;
+  top: 20%;
   position: absolute;
   text-align: center;
   border: 0.50px black solid;
@@ -70,30 +67,29 @@
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 600;
-  line-height: 22px;
   word-wrap: break-word;
 }
 
 .imgPoleFood {
-  width: 1114px;
-  height: 521px;
-  left: 15%;
-  top: 381px;
+  width: 75%;
+  height: 50%;
+  left: 12.5%;
+  top: 30%;
   position: absolute;
 }
 
 .footer {
-  width: 1400px;
+  width: 100%;
   height: 419px;
   position: relative;
   background-color: #FFD462;
-  margin-right: 20px;
-  padding-left: 100px;
+  margin-right: 5%;
+  padding-left: 5%;
 }
 
 .Titre-newsletter {
-  left: 9.5%;
-  top: 45px;
+  left: 10%;
+  top: 8%;
   position: absolute;
   color: black;
   font-size: 36px;
@@ -104,12 +100,12 @@
 }
 
 .email {
-  left: 9.5%;
-  top: 166px;
+  left: 10%;
+  top: 35%;
   border: 0.50px black solid;
   position: absolute;
   border-width: 2px;
-  width: 398px;
+  width: 27.5%;
   height: 40px;
   font-size: 14px;
   font-family: Public Sans;
@@ -118,8 +114,8 @@
 }
 
 .bouton-inscription {
-  left: 30.71%;
-  top: 167px;
+  left: 32.38%;
+  top: 35.25%;
   position: absolute;
   padding: 10px 10px 10px 10px;
   border: 0.50px black solid;
@@ -132,9 +128,9 @@
 }
 
 .sous-titre-newsletter {
-  width: 400px;
-  left: 9.5%;
-  top: 99px;
+  width: 30%;
+  left: 10%;
+  top: 22%;
   position: absolute;
   color: black;
   font-size: 14px;
@@ -145,7 +141,7 @@
 
 .shop {
   left: 42.5%;
-  top: 45px;
+  top: 11%;
   position: absolute;
   color: #000000;
   font-size: 16px;
@@ -158,7 +154,7 @@
 .shop-liste {
   width: 190px;
   left: 42.5%;
-  top: 88px;
+  top: 22%;
   position: absolute;
   opacity: 0.82;
   color: #000000;
@@ -171,7 +167,7 @@
 
 .aide {
   left: 56.5%;
-  top: 45px;
+  top: 11%;
   position: absolute;
   color: #111111;
   font-size: 16px;
@@ -184,7 +180,7 @@
 .aide-liste {
   width: 190px;
   left: 56.5%;
-  top: 88px;
+  top: 22%;
   position: absolute;
   opacity: 0.82;
   color: #000000;
@@ -197,7 +193,7 @@
 
 .a-propos {
   left: 71%;
-  top: 45px;
+  top: 11%;
   position: absolute;
   color: #000000;
   font-size: 16px;
@@ -210,7 +206,7 @@
 .a-propos-liste {
   width: 190px;
   left: 71%;
-  top: 88px;
+  top: 22%;
   position: absolute;
   opacity: 0.82;
   color: #000000;
