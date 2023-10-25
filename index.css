@@ -30,7 +30,7 @@
 
 .header {
   width: 755px;
-  left: 323px;
+  left: 375px;
   top: 126px;
   position: absolute;
   text-align: center;
@@ -45,11 +45,12 @@
 .accroche {
   width: 610px;
   height: 84px;
-  left: 397px;
+  left: 435px;
   top: 207px;
   position: absolute;
   text-align: center;
-  color: #979797;
+  color: #000000;
+  opacity: 0.9;
   font-size: 20px;
   font-family: Public Sans;
   font-weight: 400;
@@ -58,11 +59,13 @@
 }
 
 .bouton-achat {
-  left: 67.07px;
-  top: 14px;
+  left: 715px;
+  top: 287px;
   position: absolute;
   text-align: center;
-  color: #0D0D0D;
+  border: 0.50px black solid;
+  padding: 10px;
+  background-color: #FFD462;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 600;
@@ -73,7 +76,7 @@
 .imgPoleFood {
   width: 1114px;
   height: 521px;
-  left: 145px;
+  left: 185px;
   top: 381px;
   position: absolute;
 }
@@ -82,6 +85,9 @@
   width: 1400px;
   height: 419px;
   position: relative;
+  background-color: #FFD462;
+  margin-right: 20px;
+  padding-left: 100px;
 }
 
 .Titre-newsletter {
@@ -121,6 +127,7 @@
   font-weight: 600;
   line-height: 22px;
   word-wrap: break-word;
+  background-color: #FFD462;
 }
 
 .sous-titre-newsletter {
@@ -139,7 +146,7 @@
   left: 642px;
   top: 45px;
   position: absolute;
-  color: #111111;
+  color: #000000;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 600;
@@ -152,8 +159,8 @@
   left: 642px;
   top: 88px;
   position: absolute;
-  opacity: 0.50;
-  color: #111111;
+  opacity: 0.82;
+  color: #000000;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 500;
@@ -178,8 +185,8 @@
   left: 853px;
   top: 88px;
   position: absolute;
-  opacity: 0.50;
-  color: #111111;
+  opacity: 0.82;
+  color: #000000;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 500;
@@ -191,7 +198,7 @@
   left: 1065px;
   top: 45px;
   position: absolute;
-  color: #111111;
+  color: #000000;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 600;
@@ -204,8 +211,8 @@
   left: 1065px;
   top: 88px;
   position: absolute;
-  opacity: 0.50;
-  color: #111111;
+  opacity: 0.82;
+  color: #000000;
   font-size: 16px;
   font-family: Public Sans;
   font-weight: 500;
