@@ -1,58 +1,119 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-.logoPanier {
-    float: right;
-    background-color: rgba(214, 214, 255, 0);
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-between;
+  background-color: #333;
+  align-items: center; /* Pour aligner verticalement les éléments */
 }
 
-.accueil:hover {
-    text-transform: initial;
+.nav-left {
+  display: flex;
+  justify-content:left;
+  align-items: center; /* Pour aligner verticalement les éléments de gauche */
 }
 
-.accueil-acc {
-    display: none;
+.nav-right {
+  display: flex;
+  justify-content:right;
+  align-items: center; /* Pour aligner verticalement les éléments de droite */
 }
-.accueil:hover .accueil-acc {
-    display: inline;
+
+ul.nav li {
+  margin: 0; /* Supprimez les marges autour des éléments de la liste */
 }
-.accueil:hover .index {
-    display: none;
+
+ul.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 8% 8%; /* Augmentez la marge interne pour les autres éléments */
+  height: fit-content;
+  width: fit-content;
 }
+
+.connect a {
+  color: white; /* Définissez la couleur du texte en blanc */
+  padding-inline: 5%;
+  text-decoration: none; /* Supprimez la décoration du texte */
+}
+
+.cart a {
+  margin: 0; /* Supprimez la marge autour de l'élément du panier */
+  padding-left: 90%;
+  height: 0;
+}
+
+ul.nav li a:hover {
+  background-color: #111;
+}
+
+.footer {
+  background-color: #FFD462;
+  padding: 3%;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer h4 {
+  font-size: 175%;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer ul li a {
+  font-size: 125%;
+  text-transform: capitalize;
+  margin-bottom: 1%;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer ul li a:hover {
+  padding-left: 3%;
+}
+
+
+
 
 .food {
     float: left;
-    margin-left: 20px; 
-    padding-right: 25px;
-    padding-bottom: 25px;
+    margin-left: 4%; 
+    padding-right: 4%;
+    padding-bottom: 4%;
 }
 
 .container {
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 4%;
+  }
+
+  .container2 {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 3%;
   }
 
 p {
-    font-family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+}  
+
+.descFood {
+
+    font-size: xx-large;
+}
+
+hr {
+  margin: 0;
+  width: 50%;
 }

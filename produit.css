@@ -19,5 +19,16 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #ffa43b;
+  }
+
+  .section{
+    background-color: #ffa43b;
+    text-align: center;
+  }
+  .hautpage{
+    text-align: right;
+  }
+  .produit{
+    width: 10%;
   }
