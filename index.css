@@ -44,16 +44,17 @@ h1 {
   padding-left: 435px;
 }
 
-.shop {
-  display: flex;
-  width: 194px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
-  margin-left: 655px;
-  margin-bottom: 25px;
-  flex-shrink: 0;
+.bouton-achat {
+  left: 67.07px;
+  top: 14px;
+  position: absolute;
+  text-align: center;
+  color: #0D0D0D;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 22px;
+  word-wrap: break-word;
 }
 
 .imgPoleFood {
@@ -61,60 +62,149 @@ h1 {
 }
 
 .footer {
-  background-color: #FFD462;
-  padding: 70px;
-  position: absolute;
+  width: 1400px;
+  height: 419px;
+  position: relative;
+  background: #EFF2F6;
 }
 
-h3 {
+.Titre-newsletter {
+  left: 145px;
+  top: 45px;
+  position: absolute;
   color: black;
   font-size: 36px;
   font-family: Public Sans;
   font-weight: 600;
   line-height: 44px;
+  word-wrap: break-word;
 }
 
-.sous-titre-h3 {
-  width: 400px;
-  color: black;
-  font-size: 14px;
-  font-family: Public Sans;
-  font-weight: 400;
-}
-
-.footer ul {
-  list-style: none;
-}
-
-.footer h4 {
-  font-size: 18px;
-  text-transform: capitalize;
-  font-weight: 500;
-  position: relative;
-}
-
-.footer ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-  font-weight: 300;
-  text-decoration: none;
-  color: #000000;
-  display: block;
-  transition: all 0.3s ease;
-}
-
-.footer ul li a:hover {
-  padding-left: 8px;
-}
-
-.input-contact {
+.bloc-email {
   width: 398px;
   height: 40px;
+  left: 145px;
+  top: 154px;
+  position: absolute;
+}
+
+.box-email {
+  width: 398px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
   position: absolute;
   border: 0.50px black solid;
 }
 
-.liste_produit {
-  padding-left: 500px;
+.texte-email {
+  left: 16px;
+  top: 11.50px;
+  position: absolute;
+  color: #A9ABBD;
+  font-size: 14px;
+  font-family: Public Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.inscrire {
+  left: 477px;
+  top: 166px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Public Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.sous-titre-newsletter {
+  width: 400px;
+  left: 145px;
+  top: 99px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Public Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.shop {
+  left: 642px;
+  top: 45px;
+  position: absolute;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.shop-liste {
+  width: 190px;
+  left: 642px;
+  top: 88px;
+  position: absolute;
+  opacity: 0.50;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.aide {
+  left: 853px;
+  top: 45px;
+  position: absolute;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.aide-liste {
+  width: 190px;
+  left: 853px;
+  top: 88px;
+  position: absolute;
+  opacity: 0.50;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.a-propos {
+  left: 1065px;
+  top: 45px;
+  position: absolute;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.a-propos-liste {
+  width: 190px;
+  left: 1065px;
+  top: 88px;
+  position: absolute;
+  opacity: 0.50;
+  color: #111111;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
 }
