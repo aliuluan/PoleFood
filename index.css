@@ -22,6 +22,8 @@
   background-color: #111;
 }
 
+
+
 .contenu {
   width: 1400px;
   height: 1035px;
@@ -29,11 +31,10 @@
 }
 
 .header {
+  left: 47%;
   width: 755px;
-  left: 375px;
   top: 126px;
   position: absolute;
-  text-align: center;
   color: black;
   font-size: 56px;
   font-family: Public Sans;
@@ -43,9 +44,9 @@
 }
 
 .accroche {
+  left: 32%;
   width: 610px;
   height: 84px;
-  left: 435px;
   top: 207px;
   position: absolute;
   text-align: center;
@@ -59,7 +60,7 @@
 }
 
 .bouton-achat {
-  left: 715px;
+  left: 51%;
   top: 287px;
   position: absolute;
   text-align: center;
@@ -76,7 +77,7 @@
 .imgPoleFood {
   width: 1114px;
   height: 521px;
-  left: 185px;
+  left: 15%;
   top: 381px;
   position: absolute;
 }
@@ -91,7 +92,7 @@
 }
 
 .Titre-newsletter {
-  left: 145px;
+  left: 9.5%;
   top: 45px;
   position: absolute;
   color: black;
@@ -103,7 +104,7 @@
 }
 
 .email {
-  left: 145px;
+  left: 9.5%;
   top: 166px;
   border: 0.50px black solid;
   position: absolute;
@@ -117,7 +118,7 @@
 }
 
 .bouton-inscription {
-  left: 462.5px;
+  left: 30.71%;
   top: 167px;
   position: absolute;
   padding: 10px 10px 10px 10px;
@@ -132,7 +133,7 @@
 
 .sous-titre-newsletter {
   width: 400px;
-  left: 145px;
+  left: 9.5%;
   top: 99px;
   position: absolute;
   color: black;
@@ -143,7 +144,7 @@
 }
 
 .shop {
-  left: 642px;
+  left: 42.5%;
   top: 45px;
   position: absolute;
   color: #000000;
@@ -156,7 +157,7 @@
 
 .shop-liste {
   width: 190px;
-  left: 642px;
+  left: 42.5%;
   top: 88px;
   position: absolute;
   opacity: 0.82;
@@ -169,7 +170,7 @@
 }
 
 .aide {
-  left: 853px;
+  left: 56.5%;
   top: 45px;
   position: absolute;
   color: #111111;
@@ -182,7 +183,7 @@
 
 .aide-liste {
   width: 190px;
-  left: 853px;
+  left: 56.5%;
   top: 88px;
   position: absolute;
   opacity: 0.82;
@@ -195,7 +196,7 @@
 }
 
 .a-propos {
-  left: 1065px;
+  left: 71%;
   top: 45px;
   position: absolute;
   color: #000000;
@@ -208,7 +209,7 @@
 
 .a-propos-liste {
   width: 190px;
-  left: 1065px;
+  left: 71%;
   top: 88px;
   position: absolute;
   opacity: 0.82;
