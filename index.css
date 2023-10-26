@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  left: 47%;
+  left: 45%;
   top: 5%;
   position: absolute;
   color: black;
@@ -23,7 +23,7 @@ body {
 }
 
 .accroche {
-  left: 30%;
+  left: 28%;
   width: 43%;
   top: 11%;
   position: absolute;
@@ -38,7 +38,7 @@ body {
 }
 
 .bouton-achat {
-  left: 49.5%;
+  left: 44.5%;
   top: 15%;
   position: absolute;
   text-align: center;
@@ -76,10 +76,11 @@ body {
 
   .accroche {
     top: 10%;
+    left: 28%;
   }
 
   .bouton-achat {
-    left: 48%;
+    left: 44%;
     top: 14%;
   }
 }
@@ -103,14 +104,14 @@ body {
   }
 
   .bouton-achat {
-    left: 47%;
+    left: 40.5%;
     top: 14%;
   }
 }
 
 @media (min-width: 550px) and (max-width: 750px) {
   .imgPoleFood {
-    width: 75%;
+    width: 80%;
     left: 9.5%;
   }
 
@@ -124,11 +125,11 @@ body {
 
   .accroche {
     top: 10%;
-    left: 28%;
+    left: 27%;
   }
 
   .bouton-achat {
-    left: 44%;
+    left: 37%;
     top: 14%;
   }
 
@@ -189,8 +190,8 @@ body {
   }
 
   .bouton-achat {
-    left: 42%;
-    top: 16%;
+    left: 34%;
+    top: 15%;
   }
 
   .email {
@@ -241,16 +242,16 @@ body {
   }
 
   .header {
-    left: 30%;
+    left: 29%;
   }
 
   .accroche {
     top: 9%;
-    left: 31%;
+    left: 30%;
   }
 
   .bouton-achat {
-    left: 41%;
+    left: 25%;
     top: 17%;
   }
 
