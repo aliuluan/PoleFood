@@ -4,25 +4,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="script_navbar.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="images/icone/poleFood.ico">
     <title>Panier</title>
 </head>
 
 <body>
-    <ul class="nav">
-        <div class="nav-left">
-            <li><a class="index" href="index.html">Pole Food</a></li>
-            <li><a href="achat.html">Achat</a></li>
+    <div class="navbar">
+        <div class="navbar-full-screen">
+            <a href="index.html">Accueil</a>
+            <a href="produit.html">Nos Produits</a>
+            <a href="panier.html">Votre Panier</a>
         </div>
-        <div class="nav-right">
-
-            <div class="cart">
-                <a href="panier.html"><img src="/images/logoPanier/logo.png" width="5%" alt="Panier"></a>
+        <div id="navbar-phone-screen" class="navbar-phone-screen">
+            <a href="javascript:void(0);" class="icon" onclick="burger()">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+            <div id="nav-burger" class="nav-burger">
+                <a href="index.html">Accueil</a>
+                <a href="produit.html">Vos Produit</a>
+                <a href="panier.html">Votre Panier</a>
             </div>
-            <div class="connect"><a href="">Se Connecter</a></div>
         </div>
-    </ul>
+    </div>
 
 
     <h1>Votre Commande</h1>
@@ -30,28 +42,61 @@
     <br>
     <div class="container">
         <img class="food" src="images/nourriture/fruitPizza.jpg" width="10%" height="10%" alt="test">
-        <p class="descFood">Nom de la nourriture <br>
-            Quantité : X <br>
+        <p class="descFood">Pizza aux fruits <br>
+            Quantité : 3 <br>
             X€</p>
     </div>
     <hr>
 
     <div class="container2">
         <img class="food" src="images/nourriture/classicKebab.jpeg" width="10%" height="10%" alt="test">
-        <p class="descFood">Nom de la nourriture <br>
-            Quantité : X <br>
+        <p class="descFood">Kebab Classique <br>
+            Quantité : 2 <br>
             X€</p>
     </div>
-    <footer class="footer">
-        <h4>Shop</h4>
-        <ul>
-            <li><a href="produit.html#section_burger">Burgers</a></li>
-            <li><a href="produit.html#section_pizza">Pizzas</a></li>
-            <li><a href="produit.html#section_tacos">Tacos</a></li>
-            <li><a href="produit.html#section_kebab">Kebabs</a></li>
-            <li><a href="produit.html#section_hotdog">Hot-Dogs</a></li>
-        </ul>
-    </footer>
+    
+    <div class="footer">
+        <div class="footer-devider">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="footer-newsletter">Souscrivez à notre boîte mail</div>
+                    <div class="footer-text">
+                        Soyez les premiers à être au courant de nos offres speciales, de nos nouvelles sorties et de nos évènements
+                    </div>
+                    <form action="#">
+                        <fieldset>
+                            <input type="text" id="email" name="email" placeholder="Votre email">
+                            <a href="#" class="footer-email-submit">S'inscrire</a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <p class="footer-title">Magasin</p>
+                    <a href="#" class="footer-element">Burgers</a>
+                    <a href="#" class="footer-element">Pizzas</a>
+                    <a href="#" class="footer-element">Tacos</a>
+                    <a href="#" class="footer-element">Kebabs</a>
+                    <a href="#" class="footer-element">Hot-Dogs</a>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-title">Aide</p>
+                    <a href="#" class="footer-element">A propos de nous</a>
+                    <a href="#" class="footer-element">Jobs</a>
+                    <a href="#" class="footer-element">Presse</a>
+                    <a href="#" class="footer-element">Protection des données</a>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-title">A propos</p>
+                    <a href="#" class="footer-element">Service client</a>
+                    <a href="#" class="footer-element">Nous contacter</a>
+                    <a href="#" class="footer-element">Retours</a>
+                    <a href="#" class="footer-element">Aide</a>
+                    <a href="#" class="footer-element">FAQ</a>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

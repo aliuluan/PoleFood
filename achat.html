@@ -2,22 +2,36 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="script_navbar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="achat.css">
     <title>Achats</title>
 </head>
 <body>
-    <ul>
-        <li><a class="index" href="index.html">Pole Food</a> </li>
-        <li><a href="achat.html">Achat</a></li>
-        <input type="text" placeholder="Rechercher ...">
-        <button type="submit"><i class="recherche"><a href="index.html"><img src="images/logoRecherche/recherche.png"
-                        width="10px"></a></i></button>
-        <li style="float:right"><a class="logoPanier " href="panier.html"><img src="images/logoPanier/logo.png"
-                    width="25px"></a></li>
-        <li style="float:right"><a href="">Se connecter</a></li>
-    </ul>
-    <body>
+    <div class="navbar">
+        <div class="navbar-full-screen">
+            <a href="index.html">Accueil</a>
+            <a href="produit.html">Nos Produits</a>
+            <a href="panier.html">Votre Panier</a>
+        </div>
+        <div id="navbar-phone-screen" class="navbar-phone-screen">
+            <a href="javascript:void(0);" class="icon" onclick="burger()">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+            <div id="nav-burger" class="nav-burger">
+                <a href="index.html">Accueil</a>
+                <a href="produit.html">Vos Produit</a>
+                <a href="panier.html">Votre Panier</a>
+            </div>
+        </div>
+    </div>
+    </div>
         <div id="product-container">
             <img id="product-image" src="images/nourriture/frenchBurger.jpg" alt="Burger Image">
             <div id="product-info">
