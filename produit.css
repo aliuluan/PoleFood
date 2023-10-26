@@ -97,112 +97,195 @@ ul {
   line-height: 28px; 
   word-wrap: break-word
 }
-/*------------------Footer-----------------*/
+
+/*--------------navbar-----------*/
+.navbar {
+  background-color: #444444;
+  box-shadow: 0px 2px 5px 1px;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.navbar a {
+  color: #f2f2f2;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all linear 0.1s;
+}
+
+
+.navbar a.active {
+  background-color: #333333;
+  color: white;
+  transition: all linear 0.1s;
+}
+
+
+.navbar a:hover {
+  background-color: #555555;
+  transition: all linear 0.1s;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+      justify-content: center;
+  }
+
+  .navbar-phone-screen {
+      display: flex;
+      width: 100%;
+  }
+
+  .navbar-full-screen {
+      display: none;
+  }
+
+  .navbar a {
+      padding: 2%;
+  }
+}
+
+@media (min-width: 480px) {
+  .navbar-phone-screen {
+      display: none;
+  }
+
+  .navbar-full-screen {
+      display: flex;
+  }
+
+  .navbar a {
+      padding: 10% 15%;
+  }
+}
+
+.nav-burger {
+  display: none;
+  flex-direction: column;
+}
+
+.navbar-phone-screen {
+  flex-direction: column;
+}
+
+
+
+.burger-icon span {
+  box-shadow: 0px 1px 3px;
+  display: flex;
+  width: 10%;
+  height: 5px;
+  background-color: white;
+  margin: 6px 45%;
+}
+/*-----------Footer---------------*/
 .footer {
-    background-color: #FFD462;
-    padding: 2%;
-    clear: both;
-    margin-top: 10%;
+  background-color: #FFD462;
+  padding: 2%;
+  clear: both;
+  margin-top: 10%;
 }
 
 .footer-devider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
 .footer-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 45%;
-    padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 45%;
+  padding: 2%;
 }
 
 .footer-col {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
 }
 
 .footer-newsletter {
-    font-size: 24px;
-    color: #020202;
+  font-size: 24px;
+  color: #020202;
 }
 
 .footer-text {
-    color: #2c2b2b;
-    font-size: 14px;
+  color: #2c2b2b;
+  font-size: 14px;
 }
 
 .footer-element {
-    color: #252525;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    text-decoration: none;
+  color: #252525;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-decoration: none;
 }
 
 .footer-col fieldset {
-    align-items: center;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    gap:5%;
-    justify-content: center;
-    padding: 3%;
+  align-items: center;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap:5%;
+  justify-content: center;
+  padding: 3%;
 }
 
 
 .footer-col input[type=text] {
-    background-color: #ffffff;
-    border: none;
-    color: #1c1b1b;
-    font-size: 15px;
-    outline: none;
-    transition: all linear 0.1s;
+  background-color: #ffffff;
+  border: none;
+  color: #1c1b1b;
+  font-size: 15px;
+  outline: none;
+  transition: all linear 0.1s;
 }
 
 .footer-col .footer-email-submit {
-    background-color: #FFD462;
-    border: none;
-    color: #0b0b0b;
-    font-size: 15px;
-    outline: none;
-    text-decoration: none;
+  background-color: #FFD462;
+  border: none;
+  color: #0b0b0b;
+  font-size: 15px;
+  outline: none;
+  text-decoration: none;
 }
 
 .footer-col .footer-email-submit:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
 .footer-element:hover {
-    color: #ffc936;
-    transition: all linear 0.2s;
+  color: #ffc936;
+  transition: all linear 0.2s;
 }
 
 
 .footer-title {
-    color: #222222;
-    font-weight: bold;
-    margin-bottom: 10%;
+  color: #222222;
+  font-weight: bold;
+  margin-bottom: 10%;
 }
 
 
 .footer-c {
-    text-align: center;
-    color: #000000;
+  text-align: center;
+  color: #000000;
 }
 
 @media (max-width: 540px) {
-    .footer-devider {
-        flex-direction: column;
-    }
+  .footer-devider {
+      flex-direction: column;
+  }
 
-    .footer-row {
-        width: 95%;
-    }
+  .footer-row {
+      width: 95%;
+  }
 }
