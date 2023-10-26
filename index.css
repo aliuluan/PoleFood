@@ -90,6 +90,7 @@
 .Titre-newsletter {
   left: 10%;
   top: 8%;
+  width: 75%;
   position: absolute;
   color: black;
   font-size: 36px;
@@ -101,7 +102,7 @@
 
 .email {
   left: 10%;
-  top: 35%;
+  top: 38%;
   border: 0.50px black solid;
   position: absolute;
   border-width: 2px;
@@ -114,8 +115,8 @@
 }
 
 .bouton-inscription {
-  left: 32.38%;
-  top: 35.25%;
+  left: 10%;
+  top: 52%;
   position: absolute;
   padding: 10px 10px 10px 10px;
   border: 0.50px black solid;
@@ -130,7 +131,7 @@
 .sous-titre-newsletter {
   width: 30%;
   left: 10%;
-  top: 22%;
+  top: 25%;
   position: absolute;
   color: black;
   font-size: 14px;
@@ -215,4 +216,10 @@
   font-weight: 500;
   line-height: 26px;
   word-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+  .imgPoleFood {
+    width: 100%;
+  }    
 }
