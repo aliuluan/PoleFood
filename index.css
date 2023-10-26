@@ -226,17 +226,21 @@ body {
 @media (min-width: 915px) and (max-width: 1290px) {
   .imgPoleFood {
     width: 85%;
-    left: 9.5%;  
+    left: 9.5%;
   }
+
   .Titre-newsletter {
     font-size: 150%;
   }
+
   .header {
     left: 45%;
   }
+
   .accroche {
     top: 10%;
   }
+
   .bouton-achat {
     left: 48%;
     top: 14%;
@@ -246,17 +250,21 @@ body {
 @media (min-width: 750px) and (max-width: 915px) {
   .imgPoleFood {
     width: 85%;
-    left: 9%;   
+    left: 9%;
   }
+
   .Titre-newsletter {
     font-size: 110%;
   }
+
   .header {
     left: 42%;
   }
+
   .accroche {
     top: 10%;
   }
+
   .bouton-achat {
     left: 47%;
     top: 14%;
@@ -266,18 +274,22 @@ body {
 @media (min-width: 550px) and (max-width: 750px) {
   .imgPoleFood {
     width: 75%;
-    left: 9.5%;   
+    left: 9.5%;
   }
+
   .Titre-newsletter {
     font-size: 90%;
   }
+
   .header {
     left: 38%;
   }
+
   .accroche {
     top: 10%;
     left: 28%;
   }
+
   .bouton-achat {
     left: 44%;
     top: 14%;
@@ -323,22 +335,27 @@ body {
 @media (min-width:430px) and (max-width: 550px) {
   .imgPoleFood {
     width: 87.5%;
-    left: 7%;   
+    left: 7%;
   }
+
   .Titre-newsletter {
     font-size: 90%;
   }
+
   .header {
     left: 36%;
   }
+
   .accroche {
     top: 10%;
     left: 28%;
   }
+
   .bouton-achat {
     left: 42%;
     top: 16%;
   }
+
   .email {
     top: 45%;
   }
@@ -379,22 +396,27 @@ body {
 @media(max-width: 430px) {
   .imgPoleFood {
     width: 98%;
-    left: 2.5%;   
+    left: 2.5%;
   }
+
   .Titre-newsletter {
     font-size: 90%;
   }
+
   .header {
     left: 30%;
   }
+
   .accroche {
     top: 9%;
     left: 31%;
   }
+
   .bouton-achat {
     left: 41%;
     top: 17%;
   }
+
   .email {
     top: 55%;
   }
