@@ -2,35 +2,23 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="footer.css">
-    <script src="script_navbar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="produit.css">
-    <title>Produits</title>
+    <title>images/nourriture</title>
 </head>
 <body>
-  <div class="navbar">
-    <div class="navbar-full-screen">
-        <a href="index.html">Accueil</a>
-        <a href="produit.html">Nos Produits</a>
-        <a href="panier.html">Votre Panier</a>
-    </div>
-    <div id="navbar-phone-screen" class="navbar-phone-screen">
-        <a href="javascript:void(0);" class="icon" onclick="burger()">
-            <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-        </a>
-        <div id="nav-burger" class="nav-burger">
-            <a href="index.html">Accueil</a>
-            <a href="produit.html">Vos Produit</a>
-            <a href="panier.html">Votre Panier</a>
-        </div>
-    </div>
-</div>
+    <ul id="haut_de_page">
+        <li><a class="index" href="index.html">Pôle Food</a> </li>
+        <li><a href="achat.html">Achat</a></li>
+        <input type="text" placeholder="Rechercher ...">
+        <button type="submit"><i class="recherche"><a href="index.html"><img src="images/logoRecherche/recherche.png"
+                        width="10px"></a></i></button>
+        <li style="float:right"><a class="logoPanier " href="panier.html"><img src="images/logoPanier/logo.png"
+                    width="25px"></a></li>
+        <li style="float:right"><a href="">Se connecter</a></li>
+    </ul>
+    <br>
+    <ul>
         <li><a href="#section_burger">Burger</a></li>
         <li><a href="#section_pizza">Pizzas</a></li>
         <li><a href="#section_tacos">Tacos</a></li>
@@ -40,192 +28,195 @@
     <br>
     <h1 class="section" id="section_burger">Burger</h2>
     <br>
-    <div style="margin:auto; left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/burgerTower.jpg" alt="burger tower"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/burgerTower.jpg" alt="burger tower"></div>
+            <div class="nom">Burger Tower </div>
+            <div class="prix">15$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/frenchBurger.jpg" alt="french burger"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/frenchBurger.jpg" alt="french burger"></div>
+            <div class="nom">French Burger </div>
+            <div class="prix">4.50$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/goldBurger.jpg" alt="gold burger"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/goldBurger.jpg" alt="gold burger"></div>
+            <div class="nom">Gold Burger</div>
+            <div class="prix">99.99$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <br>
-    <div style="left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/petrolBurger.jpg" alt="petrol burger"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/petrolBurger.jpg" alt="petrol burger"></div>
+            <div class="nom">Petrol Burger </div>
+            <div class="prix">6$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/realCheeseBurger.jpg" alt="real cheese burger"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/realCheeseBurger.jpg" alt="real cheese burger"></div>
+            <div class="nom">Real Cheese Burger </div>
+            <div class="prix">3$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/sushiBurger.jpg" alt="sushi burger"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/sushiBurger.jpg" alt="sushi burger"></div>
+            <div class="nom">Sushi Burger</div>
+            <div class="prix">3$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <h1 class="section" id="section_pizza">Pizzas</h2>
     <br>
-    <div style="margin:auto; left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/angryPizza.jpg" alt="angryPizza"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/angryPizza.jpg" alt="angryPizza"></div>
+            <div class="nom">Angry Pizza </div>
+            <div class="prix">10$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/fritePizza.jpg" alt="fritePizza"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/fritePizza.jpg" alt="fritePizza"></div>
+            <div class="nom">Frite Pizza </div>
+            <div class="prix">7$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/fruitPizza.jpg" alt="fruitPizza"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/fruitPizza.jpg" alt="fruitPizza"></div>
+            <div class="nom">Fruit Pizza</div>
+            <div class="prix">8$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <br>
-    <div style="left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/pizzaBolo.jpg" alt="pizzaBolo"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/pizzaBolo.jpg" alt="pizzaBolo"></div>
+            <div class="nom">Pizza Bolo </div>
+            <div class="prix">15$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/pizzaCake.jpg" alt="pizzaCake"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/pizzaCake.jpg" alt="pizzaCake"></div>
+            <div class="nom">Pizza Cake </div>
+            <div class="prix">25$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/worldrecordPizza.jpg" alt="worldrecordPizza"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/worldrecordPizza.jpg" alt="worldrecordPizza"></div>
+            <div class="nom">WorldRecord Pizza</div>
+            <div class="prix">390$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <h1 class="section" id="section_tacos">Tacos</h2>
     <br>
-    <div style="margin:auto; left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/gigaTacos.jpg" alt="gigaTacos"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/gigaTacos.jpg" alt="gigaTacos"></div>
+            <div class="nom">Giga Tacos </div>
+            <div class="prix">11$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/ptitdejTacos.jpeg" alt="ptitdejTacos"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/ptitdejTacos.jpeg" alt="ptitdejTacos"></div>
+            <div class="nom">Ptidej Tacos </div>
+            <div class="prix">4$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/tacosSushi.jpeg" alt="tacosSushi"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/tacosSushi.jpeg" alt="tacosSushi"></div>
+            <div class="nom">Tacos Sushi</div>
+            <div class="prix">5$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <h1 class="section" id="section_kebab">Kebabs</h2>
     <br>
-    <div style="margin:auto; left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/assietteKebab.jpeg" alt="assietteKebab"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/assietteKebab.jpeg" alt="assietteKebab"></div>
+            <div class="nom">Assiette Kebab </div>
+            <div class="prix">9$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/chicKebab.png" alt="chicKebab"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/chicKebab.png" alt="chicKebab"></div>
+            <div class="nom">Chic Kebab </div>
+            <div class="prix">15$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/classicKebab.jpeg" alt="classicKebab"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/classicKebab.jpeg" alt="classicKebab"></div>
+            <div class="nom">Classic Kebab</div>
+            <div class="prix">7$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <h1 class="section" id="section_hotdog">Hot-Dogs</h2>
     <br>
-    <div style="margin:auto; left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/bigHotdog.jpg" alt="bigHotdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/bigHotdog.jpg" alt="bigHotdog"></div>
+            <div class="nom">Big Hot-Dog </div>
+            <div class="prix">8$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/croustiHotdog.jpg" alt="croustiHotdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/croustiHotdog.jpg" alt="croustiHotdog"></div>
+            <div class="nom">Crousti Hot-Dog </div>
+            <div class="prix">6$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/gastonomiqueHotdog.jpeg" alt="gastonomiqueHotdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/gastonomiqueHotdog.jpeg" alt="gastonomiqueHotdog"></div>
+            <div class="nom">Gastronomique HotDog</div>
+            <div class="prix">10$</div>
+            <div class="truc">M</div>
           </div>
         </div>
     </div>
     <br>
-    <div style="left: 230px; position: static; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 63%; display: inline-flex">
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/snoopdog.jpg" alt="snoopdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Men’s </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+    <div class="produit">
+        <div class="conteneur">
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/snoopdog.jpg" alt="snoopdog"></div>
+            <div class="nom">Snoop-Dog </div>
+            <div class="prix">730 000$/h</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/realHotdog.jpg" alt="realHotdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Winter </div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/realHotdog.jpg" alt="realHotdog"></div>
+            <div class="nom">Dog-Hot </div>
+            <div class="prix">666$</div>
+            <div class="truc">M</div>
           </div>
-          <div style="width: 265px; height: 331px; position: relative">
-            <div style="width: 264.03px; height: 264.60px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"><img style="width: 100%;height: 100%;" src="produits/susHotdog.jpg" alt="susHotdog"></div>
-            <div style="width: 238.69px; height: 27.34px; left: 0px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">Jacket</div>
-            <div style="width: 149.06px; height: 27.34px; left: 0px; top: 303.66px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">$99</div>
-            <div style="width: 15.59px; height: 27.34px; left: 249.41px; top: 277.30px; position: absolute; color: black; font-size: 17px; font-family: Public Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">M</div>
+          <div class="contenue">
+            <div class="image"><img style="width: 100%;height: 100%;" src="images/nourriture/susHotdog.jpg" alt="susHotdog"></div>
+            <div class="nom">Long-Dog</div>
+            <div class="prix">10$</div>
+            <div class="truc">M</div>
           </div>
         </div>
+    </div>
+    <div class="hautpage">
+        <a href="#haut_de_page">retour haut de page</a>
     </div>
     <div class="footer">
       <div class="footer-devider">
@@ -269,8 +260,6 @@
               </div>
           </div>
       </div>
-    <div class="hautpage">
-        <a href="#haut_de_page">retour haut de page</a>
-    </div>
 </body>
 </html>
+
