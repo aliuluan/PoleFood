@@ -5,10 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             var container = button.parentElement;
             container.remove();
-            var image = container.querySelector(".food"); // Sélectionne l'image à partir de la classe "food"
-
-                image.remove(); // Supprime l'image
-            
+            var image_1 = document.getElementById('image1');
+            image_1.parentNode.removeChild(image_1);
         });
     });
 });
