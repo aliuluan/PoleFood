@@ -87,7 +87,7 @@ ul {
 .truc{
   width: 15.59px; 
   height: 27.34px; 
-  left: 249.41px; 
+  left: 205px; 
   top: 277.30px; 
   position: absolute; 
   color: black; 
@@ -96,6 +96,14 @@ ul {
   font-weight: 400; 
   line-height: 28px; 
   word-wrap: break-word
+}
+button{
+  background-color: #ffa43b;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: #444444;
+  color:#ffa43b;
 }
 
 /*--------------navbar-----------*/
