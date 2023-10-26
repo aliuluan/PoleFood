@@ -212,3 +212,30 @@ hr.prix {
 #applyPromoButton:active {
   transform: scale(0.05); /* Réduisez légèrement la taille du bouton au clic */
 }
+
+.informations-commande {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.toggle-title {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-title span {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.texte-retour,
+.texte-livraison {
+  display: none;
+  margin-top: 10px;
+}
+
+.active {
+  display: block; /* ou display: inline-block; en fonction de vos besoins */
+}

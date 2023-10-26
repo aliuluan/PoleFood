@@ -8,8 +8,31 @@ document.addEventListener("DOMContentLoaded", function () {
     var produits = document.querySelectorAll(".descFood");
     var totalProduitsElement = document.querySelector(".Total2");
     var images = document.querySelectorAll(".food");
+    var retourToggle = document.getElementById("retour");
+    var retourTexte = document.querySelector(".texte-retour");
+    var livraisonToggle = document.getElementById("livraison");
+    var livraisonTexte = document.querySelector(".texte-livraison");
 
     var codeName = "CHOMAGE";
+    var promoUsed = false; // Variable de suivi pour le code promo
+
+    retourToggle.addEventListener("click", function () {
+        retourTexte.classList.toggle("active");
+        if (retourTexte.classList.contains("active")) {
+            retourToggle.innerHTML = "Politique de retour -";
+        } else {
+            retourToggle.innerHTML = "Politique de retour +";
+        }
+    });
+
+    livraisonToggle.addEventListener("click", function () {
+        livraisonTexte.classList.toggle("active");
+        if (livraisonTexte.classList.contains("active")) {
+            livraisonToggle.innerHTML = "Options de livraison -";
+        } else {
+            livraisonToggle.innerHTML = "Options de livraison +";
+        }
+    });
 
     function updateTotal() {
         var total = 0;
@@ -37,6 +60,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     applyPromoButton.addEventListener("click", function () {
+        applyPromo();
+    });
+
+    promoInput.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault(); // Empêche l'envoi du formulaire par défaut
+            applyPromo();
+        }
+    });
+
+    function applyPromo() {
         var codePromo = promoInput.value;
         if (codePromo === codeName) {
             var total = parseFloat(totalPrixElement.textContent.replace("Total : ", "").replace("€", ""));
@@ -48,6 +82,5 @@ document.addEventListener("DOMContentLoaded", function () {
             promoInfo.textContent = "Code promo invalide. Aucune réduction appliquée.";
         }
         promoInput.value = ""; // Effacez le champ du code promo
-    });
+    }
 });
-// Ajouter un événement de clic sur le bouton "Supprimer" pour la suppression d'articles
