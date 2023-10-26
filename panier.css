@@ -191,3 +191,24 @@ hr.prix {
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
+/* Ajoutez cette règle CSS pour personnaliser le bouton d'application du code promo */
+#applyPromoButton {
+  background-color: #FFD462;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #000000;
+  padding: 1.5% 1.5%; /* Ajustez les valeurs de marge ici */
+  transition: all 0.3s; /* Ajoutez une transition pour une animation en douceur */
+  float: right;
+}
+
+#applyPromoButton:hover {
+  background-color: #f6c335;
+  cursor: pointer; /* Changez le curseur au survol pour indiquer l'interaction */
+}
+
+#applyPromoButton:active {
+  transform: scale(0.05); /* Réduisez légèrement la taille du bouton au clic */
+}
