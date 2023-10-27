@@ -239,3 +239,7 @@ hr.prix {
 .active {
   display: block; /* ou display: inline-block; en fonction de vos besoins */
 }
+
+.politique li {
+  font-weight: bold;
+}
