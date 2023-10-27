@@ -72,6 +72,15 @@ body {
     transition: background-color 0.3s;
     margin: 0.5%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5px;
 }
 
 .sauce-button:hover, .side-button:hover, .drink-button:hover {
@@ -106,3 +115,4 @@ body {
     min-width: 120px;
     min-height: 25%;
 }
+
