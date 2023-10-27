@@ -18,7 +18,7 @@ body {
 }
 
 #product-image {
-    max-width: 10%;
+    max-width: 100%;
     border: 1px solid #FFA500;
     border-radius: 15px;
     margin-bottom: 2%;
@@ -115,4 +115,3 @@ body {
     min-width: 10%;
     min-height: 25%;
 }
-
