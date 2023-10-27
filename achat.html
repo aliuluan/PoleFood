@@ -31,82 +31,109 @@
             </div>
         </div>
     </div>
+
+    <div id="product-container">
+        <img id="product-image" src="images/nourriture/frenchBurger.jpg" alt="Burger Image">
+        <div id="product-info">
+            <h1 id="product-name">Burger</h1>
+            <p id="product-price">Prix : 4.5$ </p>
+        </div>
+        <div class="sauce-options">
+            <h2>Choix de Sauce</h2>
+            <div class="sauce-buttons">
+                <button class="sauce-button" data-sauce="ketchup">
+                    Ketchup
+                    <img class="button-image" src="images/imageachat/ketchup.jpg" alt="Sauce Image">
+                </button>
+                <button class="sauce-button" data-sauce="mayo">
+                    Mayo
+                    <img class="button-image" src="images/imageachat/mayo.jpg" alt="Sauce Image">
+                </button>
+                <button class="sauce-button" data-sauce="moutarde">
+                    Sauce du chef
+                    <img class="button-image" src="images/imageachat/saucechef.jpg" alt="Sauce Image">
+                </button>
+            </div>
+        </div>
+        <div class="side-options">
+            <h2>Accompagnement</h2>
+            <div class="side-buttons">
+                <button class="side-button" data-side="frites">
+                    Frites
+                    <img class="button-image" src="images/imageachat/frites.webp" alt="Side Image">
+                </button>
+                <button class="side-button" data-side="mac and cheese">
+                    Mac and cheese
+                    <img class="button-image" src="images/imageachat/macandcheese.jpg" alt="Side Image">
+                </button>
+                <button class="side-button" data-side="mais">
+                    Maïs
+                    <img class="button-image" src="images/imageachat/mais.jpg" alt="Side Image">
+                </button>
+            </div>
+        </div>
+        <div class="drink-options">
+            <h2>Boisson</h2>
+            <div class="drink-buttons">
+                <button class="drink-button" data-side="grimaceshake">
+                    Grimace shake
+                    <img class="button-image" src="images/imageachat/grimaceshake.jpg" alt="Drink Image">
+                </button>
+                <button class="drink-button" data-side="clownjuice">
+                    Clown juice
+                    <img class="button-image" src="images/imageachat/clownjuice.jpg" alt="Drink Image">
+                </button>
+                <button class="drink-button" data-side="coca">
+                    Coca Cola (édition 1920)
+                    <img class "button-image" src="images/imageachat/coca.jpg" alt="Drink Image">
+                </button>
+            </div>
+        </div>
+        <a href="panier.html" id="add-to-cart" class="button-link">Ajouter au panier</a>
     </div>
-        <div id="product-container">
-            <img id="product-image" src="images/nourriture/frenchBurger.jpg" alt="Burger Image">
-            <div id="product-info">
-                <h1 id="product-name">Burger</h1>
-                <p id="product-price">Prix : 4.5$ </p>
-            </div>
-            <div class="sauce-options">
-                <h2>Choix de Sauce</h2>
-                <div class="sauce-buttons">
-                    <button class="sauce-button" data-sauce="ketchup">Ketchup</button>
-                    <button class="sauce-button" data-sauce="mayo">Mayo</button>
-                    <button class="sauce-button" data-sauce="moutarde">Sauce du chef</button>
+    <script src="achat.js"></script>
+</body>
+<div class="footer">
+    <div class="footer-devider">
+        <div class="footer-row">
+            <div class="footer-col">
+                <div class="footer-newsletter">Souscrivez à notre boîte mail</div>
+                <div class="footer-text">
+                    Soyez les premiers à être au courant de nos offres spéciales, de nos nouvelles sorties et de nos évènements
                 </div>
-            </div>
-            <div class="side-options">
-                <h2>Accompagnement</h2>
-                <div class="side-buttons">
-                    <button class="side-button" data-side="frites">frites</button>
-                    <button class="side-button" data-side="potatoes">potatoes</button>
-                    <button class="side-button" data-side="mais">mais</button>
-                </div>
-            </div>
-            <div class="drink-options">
-                <h2>Boisson</h2>
-                <div class="drink-buttons">
-                    <button class="drink-button" data-side="frites">Grimace shake</button>
-                    <button class="drink-button" data-side="potatoes">Clown juice</button>
-                    <button class="drink-button" data-side="mais">Coca Cola (édition 1920)</button>
-                </div>
-            </div>
-            <a href="panier.html" id="add-to-cart" class="button-link">Ajouter au panier</a>
-        </div>
-        <script src="achat.js"></script> 
-    </body>
-        <div class="footer">
-        <div class="footer-devider">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <div class="footer-newsletter">Souscrivez à notre boîte mail</div>
-                    <div class="footer-text">
-                        Soyez les premiers à être au courant de nos offres speciales, de nos nouvelles sorties et de nos évènements
-                    </div>
-                    <form action="#">
-                        <fieldset>
-                            <input type="text" id="email" name="email" placeholder="Votre email">
-                            <a href="#" class="footer-email-submit">S'inscrire</a>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-row">
-                <div class="footer-col">
-                    <p class="footer-title">Magasin</p>
-                    <a href="#" class="footer-element">Burgers</a>
-                    <a href="#" class="footer-element">Pizzas</a>
-                    <a href="#" class="footer-element">Tacos</a>
-                    <a href="#" class="footer-element">Kebabs</a>
-                    <a href="#" class="footer-element">Hot-Dogs</a>
-                </div>
-                <div class="footer-col">
-                    <p class="footer-title">Aide</p>
-                    <a href="#" class="footer-element">A propos de nous</a>
-                    <a href="#" class="footer-element">Jobs</a>
-                    <a href="#" class="footer-element">Presse</a>
-                    <a href="#" class="footer-element">Protection des données</a>
-                </div>
-                <div class="footer-col">
-                    <p class="footer-title">A propos</p>
-                    <a href="#" class="footer-element">Service client</a>
-                    <a href="#" class="footer-element">Nous contacter</a>
-                    <a href="#" class="footer-element">Retours</a>
-                    <a href="#" class="footer-element">Aide</a>
-                    <a href="#" class="footer-element">FAQ</a>
-                </div>
+                <form action="#">
+                    <fieldset>
+                        <input type="text" id="email" name="email" placeholder="Votre email">
+                        <a href="#" class="footer-email-submit">S'inscrire</a>
+                    </fieldset>
+                </form>
             </div>
         </div>
+        <div class="footer-row">
+            <div class="footer-col">
+                <p class="footer-title">Magasin</p>
+                <a href="produit.html#section_burger" class="footer-element">Burgers</a>
+                <a href="produit.html#section_pizza" class="footer-element">Pizzas</a>
+                <a href="produit.html#section_tacos" class="footer-element">Tacos</a>
+                <a href="produit.html#section_kebab" class="footer-element">Kebabs</a>
+                <a href="produit.html#section_hotdog" class="footer-element">Hot-Dogs</a>
+            </div>
+            <div class="footer-col">
+                <p class="footer-title">Aide</p>
+                <a href="#" class="footer-element">A propos de nous</a>
+                <a href="#" class="footer-element">Jobs</a>
+                <a href="#" class="footer-element">Presse</a>
+                <a href="#" class="footer-element">Protection des données</a>
+            </div>
+            <div class="footer-col">
+                <p class="footer-title">A propos</p>
+                <a href="#" class="footer-element">Service client</a>
+                <a href="#" class="footer-element">Nous contacter</a>
+                <a href="#" class="footer-element">Retours</a>
+                <a href="#" class="footer-element">Aide</a>
+                <a href="#" class="footer-element">FAQ</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
