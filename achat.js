@@ -1,7 +1,7 @@
 // Récupérer tous les boutons de sauce et d'accompagnement
 const sauceButtons = document.querySelectorAll('.sauce-button');
 const sideButtons = document.querySelectorAll('.side-button');
-const drinkButtons = document.querySelectorAll('.side-button');
+const drinkButtons = document.querySelectorAll('.drink-button');
 
 // Fonction pour gérer le clic sur les boutons
 function handleButtonClick(event, buttons) {
@@ -23,6 +23,6 @@ sideButtons.forEach(button => {
 });
 drinkButtons.forEach(button => {
     button.addEventListener('click', (event) => {
-        handleButtonClick(event, sideButtons);
+        handleButtonClick(event, drinkButtons);
     });
 });
