@@ -35,7 +35,148 @@ ul {
     text-align: right;
   }
 /*---------------------------------------------------------*/
-@media (min-width:1000px) and (max-width:3300px){
+@media (min-width:1600px) and (max-width:3300px){
+  .produit{
+    margin-left:0.5%;
+    left: 230%;
+    position: static; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20%; 
+    display: inline-flex;
+  }
+  .conteneur{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 80%; 
+    display: inline-flex;
+  }
+  .contenue{
+    width: 265px; 
+    height: 331px; 
+    position: relative;
+  }
+  .image{
+    width: 264.03px; 
+    height: 264.60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #C4C4C4;
+  }
+  .nom{
+    width: 238.69px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 700; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .prix{
+    width: 149.06px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 303.66px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .truc{
+    width: 15.59px; 
+    height: 27.34px; 
+    left: 205px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  }
+
+@media (min-width:1330px) and (max-width:1600px){
+  .produit{
+    margin-left:0.5%;
+    left: 230%;
+    position: static; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20%; 
+    display: inline-flex;
+  }
+  .conteneur{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 70%; 
+    display: inline-flex;
+  }
+  .contenue{
+    width: 265px; 
+    height: 331px; 
+    position: relative;
+  }
+  .image{
+    width: 264.03px; 
+    height: 264.60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #C4C4C4;
+  }
+  .nom{
+    width: 238.69px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 700; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .prix{
+    width: 149.06px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 303.66px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .truc{
+    width: 15.59px; 
+    height: 27.34px; 
+    left: 205px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  }
+@media (min-width:1000px) and (max-width:1330px){
 .produit{
   margin-left:0.5%;
   left: 230%;
