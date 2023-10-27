@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,6 +33,8 @@ ul {
   .hautpage{
     text-align: right;
   }
+/*---------------------------------------------------------*/
+@media (min-width:1000px) and (max-width:1290px){
 .produit{
   margin:auto;
   left: 230%;
@@ -57,7 +63,6 @@ ul {
   top: 0px; 
   position: absolute; 
   background: #C4C4C4;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 .nom{
   width: 238.69px; 
@@ -98,6 +103,215 @@ ul {
   line-height: 28px; 
   word-wrap: break-word
 }
+}
+@media (min-width:915px) and (max-width:1000px){
+  .produit{
+    margin:auto;
+    left: 230%;
+    position: static; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20%; 
+    display: inline-flex;
+  }
+  .conteneur{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 40%; 
+    display: inline-flex;
+  }
+  .contenue{
+    width: 265px; 
+    height: 331px; 
+    position: relative;
+  }
+  .image{
+    width: 264.03px; 
+    height: 264.60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #C4C4C4;
+  }
+  .nom{
+    width: 238.69px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 700; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .prix{
+    width: 149.06px; 
+    height: 27.34px; 
+    left: 0px; 
+    top: 303.66px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  .truc{
+    width: 15.59px; 
+    height: 27.34px; 
+    left: 205px; 
+    top: 277.30px; 
+    position: absolute; 
+    color: black; 
+    font-size: 17px; 
+    font-family: Public Sans; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+  }
+  }
+  @media (min-width:600px) and (max-width:915px){
+    .produit{
+      margin:auto;
+      left: 230%;
+      position: static; 
+      flex-direction: column; 
+      justify-content: flex-start; 
+      align-items: flex-start; 
+      gap: 20%; 
+      display: inline-flex;
+    }
+    .conteneur{
+      justify-content: flex-start; 
+      align-items: flex-start; 
+      gap: 20%; 
+      display: inline-flex;
+    }
+    .contenue{
+      width: 265px; 
+      height: 331px; 
+      position: relative;
+    }
+    .image{
+      width: 264.03px; 
+      height: 264.60px; 
+      left: 0px; 
+      top: 0px; 
+      position: absolute; 
+      background: #C4C4C4;
+    }
+    .nom{
+      width: 238.69px; 
+      height: 27.34px; 
+      left: 0px; 
+      top: 277.30px; 
+      position: absolute; 
+      color: black; 
+      font-size: 17px; 
+      font-family: Public Sans; 
+      font-weight: 700; 
+      line-height: 28px; 
+      word-wrap: break-word
+    }
+    .prix{
+      width: 149.06px; 
+      height: 27.34px; 
+      left: 0px; 
+      top: 303.66px; 
+      position: absolute; 
+      color: black; 
+      font-size: 17px; 
+      font-family: Public Sans; 
+      font-weight: 400; 
+      line-height: 28px; 
+      word-wrap: break-word
+    }
+    .truc{
+      width: 15.59px; 
+      height: 27.34px; 
+      left: 205px; 
+      top: 277.30px; 
+      position: absolute; 
+      color: black; 
+      font-size: 17px; 
+      font-family: Public Sans; 
+      font-weight: 400; 
+      line-height: 28px; 
+      word-wrap: break-word
+    }
+    }
+    @media (min-width:430px) and (max-width:600px){
+      .produit{
+        margin:auto;
+        left: 230%;
+        position: static; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 20%; 
+        display: inline-flex;
+      }
+      .conteneur{
+        gap:15%;
+      }
+      .contenue{
+        width: 265px; 
+        height: 331px; 
+        position: relative;
+      }
+      .image{
+        width: 264.03px; 
+        height: 264.60px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #C4C4C4;
+      }
+      .nom{
+        width: 238.69px; 
+        height: 27.34px; 
+        left: 0px; 
+        top: 277.30px; 
+        position: absolute; 
+        color: black; 
+        font-size: 17px; 
+        font-family: Public Sans; 
+        font-weight: 700; 
+        line-height: 28px; 
+        word-wrap: break-word
+      }
+      .prix{
+        width: 149.06px; 
+        height: 27.34px; 
+        left: 0px; 
+        top: 303.66px; 
+        position: absolute; 
+        color: black; 
+        font-size: 17px; 
+        font-family: Public Sans; 
+        font-weight: 400; 
+        line-height: 28px; 
+        word-wrap: break-word
+      }
+      .truc{
+        width: 15.59px; 
+        height: 27.34px; 
+        left: 205px; 
+        top: 277.30px; 
+        position: absolute; 
+        color: black; 
+        font-size: 17px; 
+        font-family: Public Sans; 
+        font-weight: 400; 
+        line-height: 28px; 
+        word-wrap: break-word
+      }
+      }
+/*---------------------------------------------------------*/
 button{
   background-color: #ffa43b;
   border-radius: 10px;
