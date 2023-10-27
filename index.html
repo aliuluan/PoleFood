@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="index.css">
+    <script src="script_navbar.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="images/icone/poleFood.ico">
     <title>Accueil</title>
 </head>
 
 <body>
-    <div class="navbar">
+    <div class="navbar" data-aos="fade-down">
         <div class="navbar-full-screen">
             <a href="index.html">Accueil</a>
             <a href="produit.html">Nos Produits</a>
@@ -28,7 +31,7 @@
             </a>
             <div id="nav-burger" class="nav-burger">
                 <a href="index.html">Accueil</a>
-                <a href="produit.html">Nos Produits</a>
+                <a href="produit.html">Vos Produits</a>
                 <a href="panier.html">Votre Panier</a>
             </div>
         </div>
@@ -45,48 +48,53 @@
         <button onclick="window.location.href = 'produit.html'"
             class="bouton-achat">Consultez nos produits</button>
     </div>
-    <div class="footer">
+    <div class="footer" data-aos="zoom-in">
         <div class="footer-devider">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <div class="footer-newsletter">Souscrivez à notre boîte mail</div>
-                    <div class="footer-text">
-                        Soyez les premiers à être au courant de nos offres speciales, de nos nouvelles sorties et de nos évènements
+            <div class="footer-row" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="footer-col" data-aos="zoom-in" data-aos-duration="1200">
+                    <div class="footer-newsletter" data-aos="zoom-in" data-aos-duration="1400">Souscrivez à notre boîte
+                        mail</div>
+                    <div class="footer-text" data-aos="zoom-in" data-aos-duration="1600">
+                        Soyez les premiers à être au courant de nos offres spéciales, de nos nouvelles sorties et de nos
+                        événements
                     </div>
-                    <form action="#">
+                    <form action="#" data-aos="zoom-in" data-aos-duration="1800">
                         <fieldset>
                             <input type="text" id="email" name="email" placeholder="Votre email">
-                            <a href="#" class="footer-email-submit">S'inscrire</a>
+                            <a href="#" class="footer-email-submit" data-aos="zoom-in"
+                                data-aos-duration="2000">S'inscrire</a>
                         </fieldset>
                     </form>
                 </div>
             </div>
-            <div class="footer-row">
-                <div class="footer-col">
-                    <p class="footer-title">Magasin</p>
-                    <a href="#" class="footer-element">Burgers</a>
-                    <a href="#" class="footer-element">Pizzas</a>
-                    <a href="#" class="footer-element">Tacos</a>
-                    <a href="#" class="footer-element">Kebabs</a>
-                    <a href="#" class="footer-element">Hot-Dogs</a>
+            <div class="footer-row" data-aos="zoom-in" data-aos-duration="2200">
+                <div class="footer-col" data-aos="zoom-in" data-aos-duration="2400">
+                    <p class="footer-title" data-aos="zoom-in" data-aos-duration="2600">Magasin</p>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="2800">Burgers</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="3000">Pizzas</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="3200">Tacos</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="3400">Kebabs</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="3600">Hot-Dogs</a>
                 </div>
-                <div class="footer-col">
-                    <p class="footer-title">Aide</p>
-                    <a href="#" class="footer-element">A propos de nous</a>
-                    <a href="#" class="footer-element">Jobs</a>
-                    <a href="#" class="footer-element">Presse</a>
-                    <a href="#" class="footer-element">Protection des données</a>
+                <div class="footer-col" data-aos="zoom-in" data-aos-duration="3800">
+                    <p class="footer-title" data-aos="zoom-in" data-aos-duration="4000">Aide</p>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="4200">A propos de nous</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="4400">Jobs</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="4600">Presse</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="4800">Protection des
+                        données</a>
                 </div>
-                <div class="footer-col">
-                    <p class="footer-title">A propos</p>
-                    <a href="#" class="footer-element">Service client</a>
-                    <a href="#" class="footer-element">Nous contacter</a>
-                    <a href="#" class="footer-element">Retours</a>
-                    <a href="#" class="footer-element">Aide</a>
-                    <a href="#" class="footer-element">FAQ</a>
+                <div class="footer-col" data-aos="zoom-in" data-aos-duration="5000">
+                    <p class="footer-title" data-aos="zoom-in" data-aos-duration="5200">A propos</p>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="5400">Service client</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="5600">Nous contacter</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="5800">Retours</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="6000">Aide</a>
+                    <a href="#" class="footer-element" data-aos="zoom-in" data-aos-duration="6200">FAQ</a>
                 </div>
             </div>
         </div>
+    </div>
         <script> AOS.init();</script>
 </body>
 
