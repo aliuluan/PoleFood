@@ -8,7 +8,7 @@ body {
 
 #product-container {
     background-color: white;
-    border-radius: 15px; /* Rounded edges */
+    border-radius: 15px;
     padding: 2%;
     margin: 2% auto;
     width: 90%;
@@ -20,7 +20,7 @@ body {
 #product-image {
     max-width: 100%;
     border: 1px solid #FFA500;
-    border-radius: 15px; /* Rounded edges */
+    border-radius: 15px;
     margin-bottom: 2%;
 }
 
@@ -28,7 +28,7 @@ body {
     background-color: #FFA500;
     color: black;
     padding: 1%;
-    border-radius: 15px; /* Rounded edges */
+    border-radius: 15px;
 }
 
 #product-name {
@@ -40,50 +40,48 @@ body {
     margin-top: -1%;
 }
 
-.sauce-options, .side-options {
+.sauce-options, .side-options, .drink-options {
+    display: flex;
+    flex-direction: column;
     margin: 2% 0;
 }
 
-.sauce-options h2, .side-options h2 {
+.sauce-options h2, .side-options h2, .drink-options h2 {
     font-size: 1.4rem;
     color: black;
     background-color: #FFA500;
     padding: 1%;
-    border-radius: 15px 15px 0 0; /* Rounded edges */
+    border-radius: 15px 15px 0 0;
 }
 
-.sauce-buttons, .side-buttons {
+.sauce-buttons, .side-buttons, .drink-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 1%; /* Adjust the top margin to control spacing */
-    margin-bottom: 1%; /* Add margin to separate the button groups */
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-.sauce-button, .side-button {
+.sauce-button, .side-button, .drink-button {
     background-color: white;
     border: 1px solid #000;
-    border-radius: 10px; /* Rounded edges */
+    border-radius: 10px;
     cursor: pointer;
     padding: 1%;
     text-align: center;
     font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     transition: background-color 0.3s;
-    margin: 0.5%; /* Add margin to separate the buttons within the groups */
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 0.5%;
+    flex: 1;
 }
 
-.sauce-button:hover, .side-button:hover {
+.sauce-button:hover, .side-button:hover, .drink-button:hover {
     background-color: #FFA500;
-    border: 1px solid #000; /* Remove the border-radius on hover */
+    border: 1px solid #000;
 }
 
-.sauce-button.active, .side-button.active {
+.sauce-button.active, .side-button.active, .drink-button.active {
     background-color: #FFA500;
-    border: 1px solid #000; /* Remove the border-radius for active buttons */
+    border: 1px solid #000;
 }
 
 #add-to-cart {
@@ -91,7 +89,7 @@ body {
     color: black;
     border: none;
     padding: 1% 2%;
-    border-radius: 15px; /* Rounded edges */
+    border-radius: 15px;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -101,7 +99,7 @@ body {
     color: black;
     background-color: #FFA500;
     padding: 1.5vw 3vw;
-    border-radius: 15px; /* Rounded edges */
+    border-radius: 15px;
     font-size: 1.5rem;
     cursor: pointer;
     display: inline-block;
