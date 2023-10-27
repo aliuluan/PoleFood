@@ -34,7 +34,7 @@ ul {
     text-align: right;
   }
 /*---------------------------------------------------------*/
-@media (min-width:1000px) and (max-width:1290px){
+@media (min-width:1000px) and (max-width:3300px){
 .produit{
   margin:auto;
   left: 230%;
