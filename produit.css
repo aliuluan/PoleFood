@@ -57,7 +57,7 @@ ul {
   top: 0px; 
   position: absolute; 
   background: #C4C4C4;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 .nom{
   width: 238.69px; 
