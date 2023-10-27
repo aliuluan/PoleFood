@@ -106,7 +106,7 @@ ul {
   }
   }
 
-@media (min-width:1330px) and (max-width:1600px){
+@media (min-width:1500px) and (max-width:1600px){
   .produit{
     margin-left:0.5%;
     left: 230%;
@@ -176,7 +176,7 @@ ul {
     word-wrap: break-word
   }
   }
-@media (min-width:1000px) and (max-width:1330px){
+@media (min-width:1000px) and (max-width:1500px){
 .produit{
   margin-left:0.5%;
   left: 230%;
