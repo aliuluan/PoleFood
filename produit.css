@@ -37,7 +37,7 @@ ul {
 /*---------------------------------------------------------*/
 @media (min-width:1000px) and (max-width:3300px){
 .produit{
-  margin:auto;
+  margin-left:0.5%;
   left: 230%;
   position: static; 
   flex-direction: column; 
@@ -247,7 +247,7 @@ ul {
     }
     @media (min-width:430px) and (max-width:600px){
       .produit{
-        margin:auto;
+        margin-left:20%;
         left: 230%;
         position: static; 
         flex-direction: column; 
