@@ -37,7 +37,7 @@ ul {
 /*---------------------------------------------------------*/
 @media (min-width:1800px) and (max-width:3300px){
   .produit{
-    margin-left:0.5%;
+    margin-left:5%;
     left: 230%;
     position: static; 
     flex-direction: column; 
@@ -107,7 +107,7 @@ ul {
   }
 @media (min-width:1600px) and (max-width:1800px){
   .produit{
-    margin-left:0.5%;
+    margin-left:3%;
     left: 230%;
     position: static; 
     flex-direction: column; 
@@ -178,7 +178,7 @@ ul {
 
 @media (min-width:1500px) and (max-width:1600px){
   .produit{
-    margin-left:0.5%;
+    margin-left:2%;
     left: 230%;
     position: static; 
     flex-direction: column; 
